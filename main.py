@@ -19,8 +19,8 @@ load_dotenv()
 bot_token = os.getenv('DISCORD_BOT_TOKEN')
 
 # Initialize Firebase
-cred = credentials.Certificate('firebase_key.json')
-firebase_admin.initialize_app(cred)
+# cred = credentials.Certificate('firebase_key.json')
+# firebase_admin.initialize_app(cred)
 
 # Initialize Firestore (or Realtime Database if you prefer)
 #db = firestore.client()
